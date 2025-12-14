@@ -9,7 +9,6 @@ import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.components.Tooltip;
-import net.minecraft.client.gui.screens.ChatScreen;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.resources.sounds.SimpleSoundInstance;
 import net.minecraft.client.sounds.SoundManager;
@@ -187,5 +186,5 @@ public class IconButton extends Button {
     }
 
     public static final IconButton EMPTY = new IconButton(0, 0, Texture.EMPTY, b -> {
-    }, new ChatScreen(""));
+    }, new Screen(""));
 }
